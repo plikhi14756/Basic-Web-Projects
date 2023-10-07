@@ -1,0 +1,217 @@
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="Author" content="Pranav Likhi">
+
+    <meta name="Description" content="This webpage which will have information about My Favourite book stories summary and it will ask user whether like it or not">
+
+    <meta name="Keywords" content="Stories, Gulliver's travels summary, The illustrated ALLADDIN AND THE WONDERFUL LAMP summary">
+
+    <meta http-equiv="Refresh" content="60">
+
+    <base href="/Users/pranavlikhi/Desktop/Web development folder/" />
+
+
+    <link rel="stylesheet" href="CSS/Stylesheet-for-Projects/Project-1-My-Favourite-stories-Stylesheets.css" />
+
+    <link rel="shortcut icon" href="Media/Images/Logo-for-webpages/Logos-For-Projects/Project-1-My favourite story webpage logo.png">
+
+    <title>Favourite Stories</title>
+
+    <noscript> please enable Javascript to view this page !! </noscript>
+
+
+    <script>
+      function displayAlert1()
+      {
+          alert('Thank for review If you want to read the full book please press okay or close button')
+      }
+
+      function displayAlert2()
+      {
+        alert('Thank you for being here on our journey.')
+      }
+
+      function displayAlert3()
+      {
+        alert('Thank you for subscribing to our neswletter')
+      }
+
+    </script>
+ </head>
+<body>
+ 
+ <header>
+  
+   <div class="Heading">
+        <h1> My Favourite Stories Summary </h1>
+  </div>
+
+  <div class="Owner">
+    <h4> BY PRANAV LIKHI </h4>
+  </div>
+
+  <div class="Web-Page-Description">
+    <p>  This webpage is an example in both HTML Semantic and non-semantic tags are used. <br> <br> This will have the summary of the popular stories that that my Favourite During my childhood. </p>
+
+    <p> Special Feature of this webpage is that " The user will review the stories and redirected to webpage where they can buy this storybook then which ever they like and if they will not like it then they will get a 'Thnak you message' but not be redirected to anywhere but they will stay on same webpage " </p>
+
+  </div>
+
+  <br>
+
+  <!-- <div class="Hyper-links">
+    <iframe src="/Users/pranavlikhi/Desktop/Web development folder/HTML/HTML-All-Basic-Concepts/HTML all basic concepts.html" height="400" width="300"></iframe>
+   
+  </div> -->
+
+  <br>
+
+ </header>   
+ 
+
+ <main>
+  
+  <h3> 1.  Gulliver's travels, by Jonathan Swift  </h3>
+
+   <figure>
+     <img src="/Users/pranavlikhi/Desktop/Web development folder/Media/Images/Pictures-for-Webpages/For-Projects/Project-1-My-Favourite-Stories-webpage-image 1.png" alt=" Test image 1" height="200" width="150" loading="lazy">
+     <figcaption> Gulliver's Travel Cover Page </figcaption>
+
+    </figure>
+
+  <div class="Section-1">
+    <h3> Summary: </h3> 
+  </div>
+
+  <div class="Summary-description-1">
+
+    <em> Gulliver's Travels is an adventure story (in reality, a misadventure story) involving several voyages of Lemuel Gulliver, a ship's surgeon, who, because of a series of mishaps en route to recognized ports, ends up, instead, on several unknown islands living with people and animals of unusual sizes, behaviors, and philosophies, but who, after each adventure, is somehow able to return to his home in England where he recovers from these unusual experiences and then sets out again on a new voyage.
+    </em>    
+     
+    <br><br>
+    <Label name="Button" id="B-1"> User Opinion - Do you like this book ?  </Label>
+    <br>
+    <a href="https://www.simonandschuster.ca/books/Gullivers-Travels/Jonathan-Swift/9781627936330" target="_blank" id="B-1"> <button class="Section-1-Button-1" onclick="displayAlert1()"> Yes  </button> </a>
+    &nbsp
+    <button class="Section-1-Button-2" onclick="displayAlert2()">  No </button>
+    <br>
+  </div>
+    
+
+  <h3> 2. The illustrated ALLADDIN AND THE WONDERFUL LAMP by Pook Press </h3>
+   
+   <figure>
+
+     <img src="/Users/pranavlikhi/Desktop/Web development folder/Media/Images/Pictures-for-Webpages/For-Projects/Project-1-My-Favourite-Stories-webpage-image 2.png" alt=" Test image 2" height="200" width="150" loading="lazy">
+     <figcaption> ALLADDIN Cover Page </figcaption>
+
+   </figure>
+
+
+
+  <div class="Section-2">
+     <h3> Summary: </h3>
+  </div>
+
+  <div class="Summary-Description-2">
+
+    <em> Aladdin is a lovable street urchin who meets Princess Jasmine, the beautiful daughter of the sultan of Agrabah. While visiting her exotic palace, Aladdin stumbles upon a magic oil lamp that unleashes a powerful, wisecracking, larger-than-life genie. As Aladdin and the genie start to become friends, they must soon embark on a dangerous mission to stop the evil sorcerer Jafar from overthrowing young Jasmine's kingdom. </em>
+    
+    <br><br>
+    <Label name="Button" id="B-2"> User Opinion - Do you like this book ?  </Label>
+    <br>
+    <a href="https://storiestogrowby.org/story/aladdin-story-from-the-arabian-nights-bedtime-stories-folk-tales-for-kids/" target="_blank"> <button class="Section-2-Button-1" onclick="displayAlert1()" id="b-2"> Yes  </button> </a>
+    &nbsp 
+    <button class="Section-2-button-2" onclick="displayAlert2()">  No  </button>
+
+    <br><br>
+       
+  </div>
+
+ </main>
+
+ <footer>
+
+ 
+<div class="Newsletter">
+
+  <form action=/action_page.php method="post">
+     
+    
+     <fieldset>
+        <legend> Join us Today !! </legend>
+        <label for="f_n"> Full Name:  </label>
+       <input type="text" id="f_n" name = "Full Name" placeholder="First name + last name">
+
+        
+        <label for="e_m"> Email: </label>
+        <input type="text" id="e_m" name="Email" placeholder="eg: joe@gmail.com" required>
+       <br> <br>
+       <Label for="p_h"> Phone No: </Label>
+       <input type="tel" id="p_h" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="i.e: XXX-XXX-XXXX">
+       <br>
+  
+       <input type="checkbox" id="C-K" name="I agree to revieve updates about new stories and summaries" aria-checked="true" required>
+       <Label for="C-K"> I agree to revieve updates about new stories and summaries </Label>
+
+
+       <br>
+       
+       <button class="Bottom-Button" onclick="displayAlert3()" > Subscribe </button> 
+     </fieldset>
+   
+
+  </form>
+
+</div>
+ 
+ <div class="Bottom-Side">
+
+  <pre> 
+
+    Thank you 
+         for visiting this webpage
+                          Have a nice day !!!!    
+                                  
+  </pre>
+
+
+  <div class="Symbols">
+    <p> &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+      &#10054; &#10070;
+    </p>
+  </div>
+
+
+  <p style="text-align: left;"> ©  2023 Likhi-Pranav.inc All Rights reserved (Beginner's webpage)  </p>
+
+ </div>
+
+ </footer>
+
+</body>
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <base href="/Users/pranavlikhi/Desktop/Web development folder/">
+
+    <link rel="shortcut icon" href="Media/Images/Logo-for-webpages/Logos-For-Projects/Project-3-logo.png">
+
+    <link rel="stylesheet" href="/Users/pranavlikhi/Desktop/Web development folder/CSS/Stylesheet-for-Projects/Project-3.css">
+
+
+    <meta http-equiv="refresh" content="60"> 
+    
+    <title>Survey Form Project</title>
+
+</head>
+<body>
+  <header>
+   <p> Customer Satisfaction Survey  </p>
+
+   <script src="/Users/pranavlikhi/Desktop/Web development folder/Javascript/Javascript-for-projects/Project-3-Javascript-File.js"></script>
+
+  </header>
+   
+    
+  <main>
+  <div class="Customer-Details">
+     
+    <form action= "">
+
+      <fieldset>
+        <legend style="text-align: center;"> Customer Details </legend>
+
+        <label for="N-M"> Name:   </label>
+        <input type="text" name="NAME" id="N-M" required placeholder="First + Last ">
+
+         <br><br>
+
+        <label for="EL"> Email:   </label>
+        <input type="email" name="EMAIL" id="EL" required placeholder="eg - joe@gmail.com">
+
+         <br><br>
+
+        <label for="PN"> Phone: </label>
+        <input type="tel" name="PHONE" id="PN" required placeholder="eg - XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9{4}]">
+        
+        <br><br>
+
+        <input type="checkbox" name="Conditions" id="00" required>
+        <label for="00"> I agree to share all my personal information for this survey </label>
+
+        <br><br>
+
+        <div class="START-SURVEY">
+         <button type="button" onclick="saveData()"  id="SuRvEy"> Start Survey </button>
+        </div>
+      </fieldset>
+   
+   
+    </form>
+     
+  </div>
+
+  <br><br>
+     <!-- Section - it contains the piece of code which has defination and information of survey questions -->
+    <section>
+      <div id="Hidden-Survey-Section" style="display: none;" >
+
+         
+        <div class="survey-Form">
+
+
+                  <form action="https://www.fastfired.ca/pages/menu" onsubmit="finalAlert()">
+
+                    <fieldset>
+
+                      <legend style="text-align: center;"> Survey Form </legend>
+                      
+                      <div class="Survey-Master-Control">
+
+
+                        <div class="Questions">
+
+                          <br><br>
+
+                          <label for="1"> How satisfied are you with the services provided ? </label>
+
+                          <br><br>
+
+                          <label for="2"> How likely are you to use our services again ? </label>
+
+                          <br><br>
+
+                          <label for="3"> How likely are you to recommend our services to friends and family ? </label>
+
+                          <br><br>
+
+                          <label for="4"> How satisfied are you with the amount of time it took to resolve your issuen ? </label>
+
+                          <br><br>
+
+                          <label for="5"> How well did we answer your product/experience questions? </label>                          
+
+                          <br><br>
+
+                          <label for="6"> How would you rate our range of offerings?  </label>
+
+                        </div>
+                     
+                        <div class="Choices" style="text-align:center;">
+
+                           <!-- ***** choice define of question 1 ****** -->
+                         <p> Average  &nbsp; &nbsp;   Good &nbsp; &nbsp; &nbsp;   Excellent </p>
+
+                         <br>
+
+                         <input type= "radio" id="#" value="Choice 1" name="1">
+
+
+
+                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                         <input type="radio" id="@"  value="Choice 2" name="1">
+
+
+
+                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                         <input type="radio" id="?"  value="Choice 3" name="1">
+
+                          <!-- ***** choice define of question 2  ****** -->
+                          <br><br>
+                          
+                          <input type= "radio" id="11" value="Choice 1" name="2">
+                          
+
+
+                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                         <input type="radio" id="22"  value="Choice 2" name="2">
+                      
+
+
+                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                         <input type="radio" id="33"  value="Choice 3" name="2">
+
+                         <!-- ***** choice define of question 3  ****** -->
+                         <br><br>
+
+                         <input type= "radio" id="44" value="Choice 1" name="3">
+
+                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                         <input type="radio" id="55"  value="Choice 2" name="3">                        
+
+                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                         <input type="radio" id="66"  value="Choice 3" name="3">
+
+                         <!-- ***** choice define of question 4  ****** -->
+                         <br><br>
+
+                         <input type= "radio" id="77" value="Choice1" name="4">                         
+
+                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                         <input type="radio" id="88"  value="Choice 2" name="4">
+
+                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                         <input type="radio" id="99"  value="Choice 3" name="4">
+                          
+                         <!-- ***** choice define of question 5  ****** -->
+                         <br><br>
+
+                         <input type= "radio" id="1010" value="Choice 1" name="5">
+                         
+                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                         <input type="radio" id="1111"  value="Choice 2" name="5">
+                         
+                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                         <input type="radio" id="1212"  value="Choice 3" name="5">
+                                                  
+                         <!-- ***** choice define of question 6  ****** -->
+                         <br><br>
+
+                         <input type= "radio" id="1313" value="Choice 1" name="6">
+                        
+                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                         <input type="radio" id="1414"  value="Choice 2" name="6">
+                          
+                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                         <input type="radio" id="1515"  value="Choice 3" name="6">
+
+                        </div>
+
+
+                      </div>   
+                     
+                      
+                      <br><br>
+
+                      <div class="SUBMIT-BUTTON">
+
+                        <button type="submit"> Submit </button>
+
+                      </div>
+
+                    
+                    </fieldset>
+
+
+                  </form>
+
+
+
+
+        </div>
+
+ 
+
+
+
+
+
+      </div>
+
+      <br><br>
+
+    </section>
+
+
+  </main>
+
+  <!-- Section - it contains the HTML elements Which were created to the test the concept which allows to join any two different elements together in a single line -->
+
+ 
+ 
+  <!-- ** This part will remain hidden from the user ** -->
+
+  <section style="display: none;">
+    <div class="Master-Test">
+
+     <div class="test-1">
+       <p> This is a test element 1  </p>
+     </div>
+
+     <div class="test-2">
+       <p> This is a test element 2  </p>
+      </div>
+
+   </div>
+
+
+  </section>
+
+  <footer>
+    <pre>
+      Thank you 
+         For visiting this Webpage
+    </pre>
+   
+
+  </footer>
+    
+</body>
+</html>
