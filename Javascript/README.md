@@ -1,0 +1,1 @@
+This folder "Javascript" contains information about the javascript code that has beem created for HTML projects and has a information about javascript basic concepts in the form of a programing code. 
