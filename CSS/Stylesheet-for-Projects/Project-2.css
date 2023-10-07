@@ -1,0 +1,120 @@
+*{
+
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;
+  color: white;
+
+}
+
+.Tribute-1-Jeff-Bezos > H3{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+figure {
+
+  text-align: center;
+
+}
+
+
+
+
+#specialButton1{
+
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-radius: 15px;
+  border-color: rgb(228, 73, 73);
+
+}
+
+.Head > h1{ /* This the example of using special feature of CSS on HTML which allows to apply diffennt style to a single element within a class different elements */
+
+   text-align: center;
+   text-decoration: underline;
+
+}
+
+.main > em{
+
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(to left, rgba(255, 153, 0, 0.894) , rgb(205, 119, 38), rgb(233, 149, 25) , rgb(247, 170, 97), rgb(235, 122, 31) , rgb(233, 103, 22), rgb(231, 139, 26) ,rgb(215, 147, 83));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+
+.Tribute-1-Biography-1 > h3{
+
+  text-decoration: underline;
+  font-family: fantasy;
+
+}
+
+.Tribute-1-Biography-1 > b{
+
+  font-family:cursive;
+  background-image: linear-gradient(to left, rgba(204, 0, 255, 0.894) , rgb(205, 38, 141), rgb(188, 25, 233) , rgb(247, 97, 225), rgb(235, 31, 211) , rgb(223, 21, 176), rgb(231, 26, 122) ,rgb(204, 83, 215));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+.Tribute-1-Biography-1 > p{
+  font-size: large;
+  font-weight: lighter;
+  
+}
+
+#hiddenSection1 > h3{ /* This is example of applying CSS styling on HTML elements when id is used instead of class */
+ 
+   text-decoration: underline;
+   font-family: cursive;
+
+}
+
+.Footer > pre{
+
+  text-align: center;
+  background-image: linear-gradient(to left, rgba(255, 157, 0, 0.894) , rgb(225, 119, 119), rgb(227, 162, 87) , rgb(207, 156, 147), rgb(255, 115, 0) , rgb(223, 139, 21), rgb(245, 165, 80) ,rgb(208, 107, 60));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.Footer > p{
+  text-align: left;
+  background-image: linear-gradient(to left, rgba(255, 157, 0, 0.894) , rgb(205, 38, 38), rgb(233, 136, 25) , rgb(234, 71, 42), rgb(255, 115, 0) , rgb(223, 176, 21), rgb(255, 8, 8) ,rgb(247, 149, 103));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+
+#specialButton2{
+
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-radius: 15px;
+  border-color: rgb(228, 73, 73);
+
+}
+
+#hiddenSection2{
+  text-align: center;
+  
+}
+
+#hiddenSection2 > a{
+  text-decoration: wavy;
+  background-image: linear-gradient(to left, rgba(255, 157, 0, 0.894) , rgb(205, 38, 38), rgb(233, 136, 25) , rgb(234, 71, 42), rgb(255, 115, 0) , rgb(223, 176, 21), rgb(255, 8, 8) ,rgb(247, 149, 103));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
