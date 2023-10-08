@@ -340,6 +340,3 @@ function Numbers () {
 
 
  Numbers(); // This function has information about the concept of Numbers and conversion methods which can be used in javascript
-
-
- // Hi every thank you and have a nice day :) !!!!
