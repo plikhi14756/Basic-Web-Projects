@@ -4,8 +4,7 @@
 
 function helloWorld() {
 
-  // ********************************************************************* JAVASCRIPT HELLO World Program **********************************************************
-
+  console.log("\n ************************************* INTRODUCTION TO USE JAVASCRIPT Hello World Program *************************************   \n");
 
   // This is the first javascript webpage program which will have all the basic concepts required for javascript 
 
@@ -14,15 +13,16 @@ function helloWorld() {
   // in this program we will be storing and using all the javascript basic concepts in the form of functions and using them by linking them with html webpages
 
   console.log("Hello world this is my first javascript program\n"); // This is the hello world program created using javascipt
- // ********************************************************************* The End *********************************************************************************
 
+
+ console.log("\n ************************************* The End *************************************   \n");
 }
 
 
 function Variables () {
 
-  // ********************************************************** INTRODUCTION TO JAVASCRIPT Variables ***************************************************************
   
+  console.log("\n ************************************* INTRODUCTION TO USE JAVASCRIPT Variables *************************************   \n");
   // in javascript the variables work as a storage container which are used to hold data like numbers, texts and many other things
 
   // In javascript we can declear variables 2 ways 
@@ -62,7 +62,7 @@ function Variables () {
 
   // if we try to change the value of const variable the program will give an error
 
-// ********************************************************************* The End *********************************************************************************
+  console.log("\n ************************************* The End *************************************   \n");
 
 
 }
@@ -70,8 +70,8 @@ function Variables () {
 
 function dataTypes() {
 
-  // ********************************************************** INTRODUCTION TO JAVASCRIPT Data-types **************************************************************
-
+ 
+  console.log("\n ************************************* INTRODUCTION TO USE JAVASCRIPT Data-types *************************************   \n");
   // In javascript there are eight types of data-types
 
 
@@ -141,8 +141,7 @@ function dataTypes() {
 
   console.log( identity , "- is the example of using object operator"); // we can use this operator to store different types of variable under one name just like class is c language
 
-
-// ********************************************************************* The End ************************************************************************************
+  console.log("\n ************************************* The End *************************************   \n");
 
 
 
@@ -152,8 +151,8 @@ function dataTypes() {
 
 
 function htmlDOM() {
- // ********************************************************** INTRODUCTION TO USE JAVASCRIPT WITH HTML (DOM) **************************************************************
-
+ 
+ console.log("\n ************************************* INTRODUCTION TO USE JAVASCRIPT WITH HTML (DOM) *************************************   \n");
   // Jvascript can be used with html to make webpages interacrtive
 
 
@@ -233,9 +232,8 @@ document.addEventListener("DOMContentLoaded", function() {
    }
     
    console.log("\n");
- // ********************************************************************* The End **************************************************************************************
 
- 
+   console.log("\n ************************************* The End *************************************   \n");
 
 
 }
@@ -243,8 +241,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function Numbers () {
 
-  // ********************************************************** INTRODUCTION TO USE JAVASCRIPT Numbers **************************************************************
-
+  
+  console.log("\n ************************************* Introduction to the concept of numbers and methods in javascript *************************************   \n");
 
   // In javascript any type of number can be stored in the the variable we do not need any typ specifier like long, double or float to store numbers   
 
@@ -318,8 +316,8 @@ function Numbers () {
   
 
 
- // ********************************************************************* The End **************************************************************************************
-
+  
+ console.log("\n ************************************* The End *************************************   \n");
 
 
 }
@@ -396,13 +394,13 @@ function operator() {
 
 // This section has functions executed using javascript and we can select which function/concept we want run/use at time instead of running all concepts at once 
 
-// helloWorld(); // This function has information about the first hello-world program created by using javascript
+ helloWorld(); // This function has information about the first hello-world program created by using javascript
 
 
-// Variables(); // This function has information about the concept of variables and types used in javascript
+ Variables(); // This function has information about the concept of variables and types used in javascript
 
 
-// dataTypes(); // This function has information about the concept of data-types used in javascript
+ dataTypes(); // This function has information about the concept of data-types used in javascript
 
 
 // htmlDOM(); // This function has information about the concept of HTML DOM which allows us to manipulate HTML and CSS elements by using javascript
