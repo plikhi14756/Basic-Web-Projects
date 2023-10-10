@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <style>
+      body {
+             background-color: black;
+
+             /* this is the syntax by which we can create a webpage using image and having contents of wepage on it  */
+             background-image: url("/Users/pranavlikhi/Downloads/39224193.jpg");
+             
+             /* below is the example of how we can adjust the this size and allignment/positioning of backgroud image according to our needs */
+
+             /* This is the for every image which we want to make  */
+              background-size: 100% 100%; 
+              background-position: center;
+              background-attachment: fixed;
+           }
+
+      h3 {
+           color: white;
+           text-align: center;
+           text-decoration: underline;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         }
+      dt {
+          font-style: italic;
+          color: white;
+         }
+
+      button {
+                border-color: rgb(10, 88, 219);
+                color: rgb(234, 241, 253);
+                background-color: rgb(10, 88, 219);
+             } 
+
+      p {
+           
+          color: orange;
+          font-family: cursive;
+        }     
+        
+      dd {
+           color:rgb(226, 216, 216);
+           font-family: fantasy;
+             
+         }  
+      pre {
+           background-image: linear-gradient(to right, red, orange, red, orange);
+           background-clip: text;
+           -webkit-background-clip: text;
+            color: transparent;
+            font-family: monospace;
+          } 
+ 
+             
+   
+    </style>
+
+    <title> HTML Elements </title>    
+  </head>
+
+  <body>
+    <h3> HTML elements and types </h3>
+
+    <p> This webpage will have have information about the elements and how they are classified </p>
+
+    <p> There are some special type of elements and their classification in HTML. </p>
+    
+    <hr>
+    <dl>
+       <dt> <strong> hr </strong> </dt>
+       <dd> This element creates a horizontal line where it is used this is the example of using horizontal line element </dd>
+       <hr>
+       <dt> <strong> br </strong> </dt>
+       <dd> This element creates a break line where it is used and also eleminates the need to create multiple paregraphi tags this is the example of using horizontal line element </dd>
+       <hr>
+       <dt> <strong> Inline elements </strong> </dt>
+       <dd> These are the type of elements html which doesn't take the whole space and can be accomodated with other elements within a single line <br> some of the inle elements are <br> 1. a - anchor <br> 2. strong <br> 3. style <br> 4. button <br> and many other elemnents <br> # these elements allows padding in from all directions and margins or height properties of css are not supported only css properties which from left to right or vice ersa are supported </dd>
+       <hr>
+       
+       <dt> <strong> Block element </strong> </dt>
+       <dd> These are the type of elements in HTML which take all space of the line <br> These elements are ; <br> 1. p - Paragraph <br>2. em <br> 3. title <br> 4. h3 - highlight text elenent <br> 5. many other elements which will be learened and added in the future <br> # These elements cannot be used with other elements in same line as we use inline elents with other elements and these elements follows, respects and support all CSS style properties and features </dd>
+    
+
+     <hr>
+     <dt> <strong> bold </strong> </dt> 
+     <dd> This is the type of element in HTML which is used to make text bold. <br> In HTML we can make text bold in 3 ways : <br> 1. By using b (bold) tag <br> 2. by using strong tag <br>3. By using font-size attribute either with style or in CSS file </dd>
+
+     <hr>
+     <dt> <strong> image </strong> </dt> 
+     <dd> This is the type of element in HTML which is used to add image in our webpage. <br> In HTML there is only one way to user image element : <br> 1. By using imagr (image) tag <br> This is the example of using image tag in HTML <br> <img src="/Users/pranavlikhi/Downloads/red and black abstract wallpaperred black white abstract wallpaper.png" alt="Wallpaper image", title="Test image" height="100" , width="100", loading="lazy" > <br> img tag has 3 parts: <br> 1. src - it tells the location the image it can be any url or path where the image is stored <br> 2. alt - this is used when the image is not loaded due to weak connection this will tell reader/browzer what the image is about <br> 3. loading - it can be used to alter/control the behaviour of image (it is generally used to save data and decreasing website load time) <br> This is the example of using multiple images in html webpage: <br> <img src="/Users/pranavlikhi/Desktop/Screenshot 2023-09-02 at 4.10.45 AM.png" alt="Test image 2" loading="lazy" height="200" width="200"> <br> <img src="/Users/pranavlikhi/Downloads/red and black abstract wallpaperred black white abstract wallpaper.png" alt="Wallpaper image", title="Test image" height="200" , width="200" loading="lazy"> </dd>
+
+     <hr>
+     <dt> <strong> subscript </strong> </dt>
+     <dd> This is the type of element in HTML which takes half space of the normal text and the text inside subscript will be dowwards <br> This element is generally used for chemistry equations or represent chemical formulas <br> this is the example of using subscript element <P> H <sub>2</sub> O - is the chemical formula of water </P>  <P>CO<sub>2</sub> - is the chemical formula for carbondoxide </P> </dd>
+     
+      <dt> <strong> Superscript </strong> </dt>
+      <dd> This is the type of element in HTML which takes half space of the normal text and the text inside subscript will be upwards <br> it is generally used for writing mathematical formulas <br> this is the example of using both subscript and superscript in combination <p> 4 <sub> x </sub> <sup> 2 </sup> - 5 <sub> x </sub> - 12 = 0 - this is the formula of quadratic eqution </p> <br> below will be the example of using superscript element <br> <p> V = s <sup> 3 </sup> this is the formula of volume of a cube </p> </dd>
+
+    </dl> 
+    <hr>
+
+    <pre style="text-align: center;">
+      Thanks for visiting this webpage
+            have a nice day !!!
+
+    </pre>
+    
+    <p> To return to main webpage </p>
+    <!-- This is the syntax of creating button with round edges -->
+    <a href="HTML all basic concepts.html" target="_blank"> <button style="border-radius: 15pc;"> click here </button> </a> 
+
+  </body>
+
+
+
+</html>

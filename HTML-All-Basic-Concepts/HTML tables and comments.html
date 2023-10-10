@@ -1,0 +1,203 @@
+<!-- Comments in Html are used to readability and they are hidden from the user and they also acts as an achore which allows the programer or anyone who has access to the code to understand and make required changes in future they also [play an important role when working in a collaborative environment] -->
+
+<!-- In Mac OS the shortcut key to use cooment for html is (command + /) -->
+
+<!-- (<p style="text-decoration:underline;"> This table created below is the example of using colspan) this is the example of how we can use CSS stly language on a speific HTML element by using style as an attributre inside the element where want to use it  </p> -->
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <style>
+        body{
+             background-color:rgb(182, 202, 238)
+            }
+        
+        button {
+                background-color:rgb(182, 202, 238)
+               }
+       
+       h1 {
+           text-align: center;
+           text-decoration: underline;
+           color: black;
+          } 
+
+    </style>
+
+     
+
+    <Title>
+       HTML tables and comments 
+     </Title>
+     <h1> Tables and comments </h1>
+  </head>
+
+
+   <body>
+       
+       
+      
+       <em> To return to main website </em>
+       <p> </p>
+       <a href="HTML all basic concepts.html" > <button> Click here </button> </a>
+      <p>  This webpage is created to show different tables in HTML </p>
+
+      <em> This is the basic table that we have created using HTML </em>
+      
+      <table border="1" >
+        <tr>
+         <th> name </th>
+         <th> type </th>
+         <th> price </th>
+        </tr>
+        
+         <tr>
+          <td> Apple </td>
+          <td> fruit</td>
+          <td> 5$ </td>
+         </tr>
+         
+         <tr>
+          <td> Banana </td>
+          <td> fruit</td>
+          <td> 5$ </td>
+         </tr>
+
+         <tr>
+          <td> iphone </td>
+          <td> mobile </td>
+          <td> 25$ </td>
+         </tr>
+
+       </table>
+
+      <p> the table can be divided into 3 types table header, body and footer </p>
+
+       <table border="1" style = "border-collapse: collapse;">
+         <thead>
+           <tr>
+             <th> name </th>
+             <th> type </th>
+             <th> price </th>
+           </tr>
+            
+         </thead>
+
+         <tbody>
+            <tr>
+                <td> Apple </td>
+                <td> fruit</td>
+                <td> 5$ </td>
+             </tr>
+               
+            <tr>
+                <td> Banana </td>
+                <td> fruit</td>
+                <td> 5$ </td>
+            </tr>
+      
+            <tr>
+                <td> iphone </td>
+                <td> mobile </td>
+                <td> 25$ </td>
+            </tr>
+
+         </tbody>
+
+         <tfoot>
+         <tr> 
+           <td> </td>
+           <td> Total = </td>
+           <td> 30$ </td>
+         </tr>
+         </tfoot>
+
+       </table>
+
+     <p> There are some attributes in html which we can used while creating tables </p>
+ 
+     <p> one is rowspan and another is colspan </p>
+
+     <p> <strong> colspan - this attribute combine coloums together </strong> </p>
+     <p> <strong> rowspan - this attribute combine rowspan together </strong> </p>
+
+     <p style="text-decoration:underline;"> This table created below is the example of using colspan  </p>
+     
+     <table border="1" style = "border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th> name </th>
+            <th> type </th>
+            <th> price </th>
+          </tr>
+           
+        </thead>
+
+        <tbody>
+           <tr>
+               <td> Apple </td>
+               <td> fruit</td>
+               <td> 5$ </td>
+            </tr>
+              
+           <tr>
+               <td> Banana </td>
+               <td> fruit</td>
+               <td> 5$ </td>
+           </tr>
+     
+           <tr>
+               <td> iphone </td>
+               <td> mobile </td>
+               <td> 25$ </td>
+           </tr>
+
+        </tbody>
+
+        <tfoot>
+        <tr> 
+          <td colspan = "2" > Total  </td>
+          <td> 30$ </td>
+        </tr>
+        </tfoot>
+
+      </table>
+
+      <p> down below will be the example of creating a table using <strong> rowspan </strong> using HTML language </p>
+
+       
+      <table border="1" style="border-collapse: collapse;">
+          <tr>
+            <th> Name </th>
+            <th> Country </th>
+            <th> age </th>
+          </tr>
+
+          <tr>
+            <td rowspan="3"> Pranav </td> 
+            <td> India </td>
+            <td> 21 </td>
+          </tr>
+ 
+          <tr>
+           
+            <td> USA </td>
+            <td> 27 </td>
+          </tr>
+
+         <tr>
+            <td> Canada </td>
+            <td> 20 </td>
+          </tr>
+
+      </table>
+
+      
+
+
+    </body>
+
+</html>

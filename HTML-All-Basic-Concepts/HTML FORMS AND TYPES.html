@@ -1,0 +1,178 @@
+<html lang="en">
+ <head>
+    <meta name="Author", content="Pranav likhi">
+
+    <meta name="Keywords" content="Meta, forms">
+
+    <meta name="Description" content="This webpage will describe about different type of forms that we create in webpage by using HTML">
+
+    <meta http-equiv="refresh", content="120" >
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="content sequrity policy" content="default-src 'self';" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/Users/pranavlikhi/Desktop/Web development folder/CSS/Stylesheets-for-basic-concepts/HTML-All-basic-concepts-Stylesheet-1.css" /> 
+
+    <script>
+
+      function displayalert()
+      {
+        alert('Thank you for time This Form has been completed and sunmitted succesfully To exit this webpage and my main html website press Ok button :)')
+      }
+
+    </script>
+
+    <link rel="shortcut icon" href="/Users/pranavlikhi/Desktop/Web development folder/Media/Images/Logo-for-webpages/Logos-for-basic-concepts/Basic-cincept-Forms-Webpage-Logo.png">
+
+    <title> HTML FORMS</title>
+ </head>
+ <body>
+    
+  <h3> HTML Forms types and uses  </h3>
+
+  <em> In this we using forms attribute to crete a different type of forms that are possible html webpage  </em>
+
+  <br> <br> <br>
+
+  <em> First we will be creating a newsletter subscriber registration form </em>
+
+  <h4> # These forms needs to filled in 2 mins because this webpage refresh itself in every 2 mins which means every data will be cleared # </h4>
+
+
+  
+  <form action="/Users/pranavlikhi/Desktop/Web development folder/HTML/HTML-All-Basic-Concepts/HTML all basic concepts.html" >
+
+    <br><br>
+    
+       <fieldset>
+         <legend> Subscription News letter </legend>
+           
+           <label for="F-N"> First Name: <br> </label>
+           <input type="text" name="First-name" id="F-N" aria-invalid="spelling">
+           <br>
+           <label for="L-N"> Last Name: <br> </label>
+           <input type="text" name="Last Name" id="L-N" aria-invalid="grammar">
+           <br>
+           <label  for="E"> Email: <br> </label>
+           <input type="email" name="Email" id="E" inputmode="email">
+            <br>
+       
+           <input type="checkbox" name="subscribe" id="subs" aria-invalid="true">
+           <label for="subs"> I agree to recieve Email updates about on new products </label>
+           <br><br>
+           <button onclick="displayalert()"> Submit </button>
+      </fieldset>
+  </form>
+
+  <br><br>
+
+
+  <em> This is the example of creating a simple form using form attribute  </em>
+  
+  <hr>
+
+  <em> Now we will be creating a form which will collect all the information of the user and In this form all the attributes and fetures of the form tag will be used create this form </em>
+
+
+  <form action="https://www.apple.com/ca/apple-events/">
+   
+    <form action="" >
+
+      <br><br>
+      
+         <fieldset>
+           <legend> User registration  </legend>
+             
+             <label for="F-E"> First Name: <br> </label>
+             <input type="text" name="First-name" id="F-E" aria-invalid="spelling">
+             <br>
+             <label for="L-L"> Last Name: <br> </label>
+             <input type="text" name="Last Name" id="L-L" aria-invalid="grammar">
+             <br>
+             <label  for="E-M"> Email: <br> </label>
+             <input type="email" name="Email" id="E-M" inputmode="email">
+              <br> <br>
+         
+             <label for="C-T"> Country: </label>
+             <select id="C-T">
+            
+               <option value="Select"> Select </option>
+               <option value="INDIA"> INDIA </option>
+               <option value="=CANADA"> CANADA </option>
+               <option value="U.S.A"> U.S.A </option>
+               <option value="Australia"> Australia </option>
+               <option value="Dubai"> Dubai </option>
+               <option value="Africa"> Africa </option>
+               <option value="Other"> Other </option>
+
+             </select>
+
+              <br> <br>
+
+             
+             <label for="S-X"> Sex: </label>
+             <input type= "radio" id="M-L" value="Male" name="Sex" >
+             <label for="M-L"> Male </label>
+
+
+             <input type="radio" id="F-L"  value="Female" name="Sex">
+             <label for="F-L"> Female </label>
+             
+             <input type="radio" id="O-T"  value="Other" name="Sex">
+             <label for="O-T"> Other </label>
+
+             <br> <br>
+
+             <label for="D-B"> Date of birth </label>
+             <input type="date" id="D-B">
+
+             <br></br>
+
+             <label for="A-G"> slide your current asset value: (From 0$ to 100$) </label>
+             <input type="range" value="0" aria-valuemax="100" >
+
+             <br><br>
+
+             <label for=" T-L "> Phone no: <br> </label>
+             <input type="tel" name="Phone no:" id="T-L" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+
+             <br><br>
+
+             <label for="File"> Upload douments <br> </label>
+             <input type="file" name="file" id="File">
+
+             <br><br>
+
+             <label for="T-B"> Enter your massage  <br> </label>
+             <textarea name="Enter your massage" id="T-B" cols="30" rows="10" maxlength="150"> Max limit 150 charactors </textarea>
+
+             <br><br>
+
+             <label for="B-C"> choose your favourite colour : <br> </label>
+             <input type="color" id="B-C">
+
+             <br><br>
+
+             <input type="checkbox" name="Agreement" id="A-G">
+             <label for="A-G" id="A-G"> I agree to all terms and conditions</label>
+                          
+             <br><br>
+
+
+             <button onclick="displayalert()"> Submit </button>
+             <button type="reset"> Reset </button>
+        </fieldset>
+    </form>
+
+  
+  </form>
+  <pre> 
+    Thanks for visiting this wepage 
+         Have a nice day !!!!
+
+  </pre>
+
+ </body>

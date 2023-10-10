@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="120">
+    <meta name="Author" content="Pranav Likhi">
+    
+    <title>Javascipt webpage</title>
+  
+</head>
+<body>
+    <h1> Linking webpages with java-scvript </h1>
+
+    <br>
+
+    <p> This webpage will be used to demostrate how javasript concepts can be linked and used with html and css webpages </p>
+    <script src="/Users/pranavlikhi/Desktop/Web development folder/Javascript/Javascript-basic-concepts/Javascript all basic concepts.js"></script>
+    <!-- This is the only way of linking external javascript files in HTML webpages -->
+
+ <div class="javaElement">
+
+    <br>
+
+    <hr>
+
+   
+    <p id="demo"></p>
+   
+
+
+    <hr>
+
+ </div>  
+   
+ 
+
+ <div class="hiddenElements">
+    <p> Now we will demostrate the use of javascript feature which allows to hide and show elements using buttons </p>
+
+    <br>
+
+    <hr>
+    
+    <br>
+
+    <p> To reveal the hidden element </p>
+    
+    <button id="hiddenButton"> Click Here </button>
+
+    <em style="display: none;" id="hiddenElement">Hi, how are you ?</em>
+
+
+    <p> To hide the revealed html element using javascript </p>
+    
+    <button id="hiddenButton2"> Click Here </button>
+
+ </div>
+   
+
+ <div class="inputBox">
+
+    <hr>
+
+    <br>
+
+
+    <p> Now we will demostrate the use of javascript feature which will use javascript to make a input box validate  </p>
+
+    <br>
+
+    <label for="IP"> Enter a number between 1 and 10 </label>
+
+    <input type="text" id="IP" >
+
+    <button onclick="boxValidate()" > Submit </button>
+    <p id="result">  </p>
+
+    <br>
+
+    <hr>
+    
+ </div>
+   
+
+ <div class="newForm">
+    
+    <p> Now we will demostrate the use of javascript feature which allows to make HTML form submissions more interactive and realestic </p>
+
+    <br>
+
+    <p> ** First we will create a simple newsletter to test/demostrate this feature ** </p>
+
+    <br>
+
+    <form action="#" name="Newsletter" onsubmit="Validateform()">
+
+      <fieldset>
+        <legend> News-letter </legend>
+
+         <label for="f-n"> Name - </label>
+         <input type="text" name="F-N" id="f-n" placeholder="enter first and last name">
+
+         <br>
+
+         <label for="el"> Email - </label>
+         <input type="email" name="E-M" id="el" required placeholder="i.e - joe@gmail.com">
+
+         <br>
+
+         <label for="ph"> Name - </label>
+         <input type="tel" name="P-n" id="ph"  placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+         <br>
+
+         <input type="checkbox" name="C-K" id="cb" >
+         <label for="cb" > I agree to all terms and conditions  </label>
+
+         <br>
+
+         <input type="submit" value="Subscribe">
+
+
+
+      </fieldset>
+
+
+    </form>
+
+    <hr>
+   
+    <br>
+
+ </div>
+
+
+  <p> In this the java-script linked files wil not be visible to the user but can only be seen by using web-app developer tools in chrome or other web-browsers  </p>
+ 
+  <pre>
+        &trade; Thank you for for visiting this webpage
+           have a nice day !!!  &copy;
+
+   </pre>
+</body>
+</html>
