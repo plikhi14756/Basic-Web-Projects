@@ -325,6 +325,75 @@ function Numbers () {
 }
 
 
+function operator() {
+
+  console.log("\n ************************************* Introduction to the concept operators in javascript *************************************   \n");
+
+ // In javascript the operators plays an important role in making a program or webpage and there are many types of operators which are used in this language 
+
+ // Some of them are
+ 
+ // 1. Arithmetic Operators
+ // 2. Assignment Operators
+ // 3. Comparison Operators
+ // 4. String Operators
+ // 5. Logical Operators
+ // 6. Bitwise Operators
+ // 7. Ternary Operators
+ // 8. Type Operators
+
+
+ // Now we will study each of them in datails with examples
+
+
+ console.log("\n ************************************* Introduction to the Arithmetic Operators in javascript *************************************   \n");
+
+
+ // Arithmetic operators are the type operators which are used to perform basic calculations in javascript programs
+ 
+ // Some of their types are: 
+ 
+ //  Operator	        Description
+ //   +	              Addition
+ //   -	              Subtraction
+ //   *	              Multiplication
+ //   **	            Exponentiation (ES2016)
+ //   /	              Division
+ //    %	            Modulus (Remainder)
+ //   ++	            Increment
+ //   --	            Decrement
+
+ // This the example of using addition operator in javascript
+ let a = 2;
+ let b = 2;
+ let c = a + b;
+ console.log(c ,": is the example of using addition arithmetic operator (2 + 2) in javascript");
+
+
+
+
+ console.log("\n ************************************* The End *************************************   \n");
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+  console.log("\n ************************************* The End *************************************   \n");
+
+
+}
+
+
 // This section has functions executed using javascript and we can select which function/concept we want run/use at time instead of running all concepts at once 
 
 // helloWorld(); // This function has information about the first hello-world program created by using javascript
@@ -340,4 +409,6 @@ function Numbers () {
 
 
  Numbers(); // This function has information about the concept of Numbers and conversion methods which can be used in javascript
+
+ operator(); // This function has information about the concept of operators which are commonly used in making javascript programs 
  
