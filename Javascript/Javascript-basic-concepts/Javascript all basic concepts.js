@@ -367,6 +367,56 @@ function operator() {
  let c = a + b;
  console.log(c ,": is the example of using addition arithmetic operator (2 + 2) in javascript");
 
+ // This the example of using Substraction operator in javascript
+ let a1 = 10;
+ let b1 = 20;
+ let c1 = a1 - b1;
+ console.log(c1 ,": is the example of using Sunstraction arithmetic operator (10 - 20) in javascript");
+
+ // This the example of using Multiplication operator in javascript
+ let a2 = 10;
+ let b2 = 20;
+ let c2 = a2 * b2;
+ console.log(c2 ,": is the example of using Multiplication arithmetic operator (10 * 20) in javascript");
+
+ // This the example of using Exponentiation operator in javascript
+ let a3 = 10;
+ let b3 = 2;
+ let c3 = a3 ** b3;
+ console.log(c3 ,": is the example of using Exponentiation arithmetic operator (10 ** 2) in javascript");
+
+ // This the example of using Division operator in javascript
+ let a4 = 10;
+ let b4 = 2;
+ let c4 = a4 / b4;
+ console.log(c4 ,": is the example of using Division arithmetic operator (10 / 2) in javascript");
+
+ // This the example of using Modulus operator in javascript
+ // Modulus is a special number because it gives remainder as the answere for eg when 10 is divided by 2 we will get 0 as their remainder
+ let a5 = 10;
+ let b5 = 2;
+ let c5 = a5 % b5;
+ console.log(c5 ,": is the example of using Modulus arithmetic operator (10 % 2) in javascript");
+
+  // This the example of using increment operator in javascript
+ let a6 = 10;
+ let b6 = 2;
+ let c6 = a6++;
+ let d6 = ++b6;
+ console.log(c6 ,": is the example of using increment operator (10++) in javascript"); // in this case we will get same value because the operator is behind the number which means the number is first printed and then added when used again
+ 
+ console.log(d6 ,": is the example of using increment operator (++2) in javascript"); // in this case we will get different value because the operator is at the front of the number which means the number is first added and then printed
+
+ // This the example of using decrement operator in javascript
+ let a7 = 10;
+ let b7 = 2;
+ let c7 = a7--;
+ let d7 = --b7;
+ console.log(c7 ,": is the example of using decrement operator (10--) in javascript"); // in this case we will get same value because the operator is behind the number which means the number is first printed and then reduced when used again
+ 
+ console.log(d7 ,": is the example of using decrement operator (--2) in javascript"); // in this case we will get different value because the operator is at the front of the number which means the number is first reduced and then printed
+
+
 
 
 
