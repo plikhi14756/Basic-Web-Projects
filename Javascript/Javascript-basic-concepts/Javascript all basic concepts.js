@@ -425,13 +425,198 @@ function operator() {
 
 
 
+ console.log("\n ************************************* Introduction to the Assignment Operators in javascript *************************************   \n");
+
+ // In Javascript there are 4 types assignment operators in javascript
+
+
+ 
+ // 1. Logical Assignment Operator
+
+ //  Operator	      Example    	      Same As
+ //   &&=	          x &&= y	          x = x && (x = y)
+ //   ||=	          x ||= y	          x = x || (x = y)
+ //   ??=	          x ??= y	          x = x ?? (x = y)
+
+ // 2. Bitwise Assignment Operators
+
+ //  Operator	      Example           Same As
+ //  &=	            x &= y	          x = x & y
+ //  ^=	            x ^= y	          x = x ^ y
+ //  |=	            x |= y	          x = x | y
  
 
+ // 3. Shift Assignment Operators
+
+ //  Operator	      Example	                Same As
+ //  <<=	           x <<= y	              x = x << y
+ //  >>=	           x >>= y	              x = x >> y
+ //  >>>=	           x >>>= y	              x = x >>> y
+
+
+ // 4. JavaScript Assignment Operators
+
+ //  Operator	       Example	               Same As
+ // =	               x = y	                  x = y
+ // +=	             x += y	                  x = x + y
+ // -=	             x -= y	                  x = x - y
+ // *=	             x *= y	                  x = x * y
+ // /=	             x /= y	                  x = x / y
+ // %=	             x %= y	                  x = x % y
+ // **=	             x **= y	                x = x ** y
 
 
 
+ // #########################################################################################
+ // Logical bitwise operators - These are the type of operators whose working is based on truthfulness of the value of the operator
+
+ // These are of 3 types
+
+ // 1.  Logical AND assignment operator (x &&= 5) - Here is the working example of this operator 
+
+ let c11 = 10; // This is the syntax of using Logical AND assignment operator
+ c11  &&= 20;
+ console.log(c11, ": is output of using Logical AND assignment operator")
+
+ // as output we will get a new number 20 after using this operator because this  operator will change value if the initial value of x is any non zero value oo initial variable x will be considered  truthful which fulfills the condition of the operator and the initial value get changed to the specified value
+ // #########################################################################################
+
+ // #########################################################################################
+
+ // 2.  Logical OR assignment operator (x ||= 5) - Here is the working example of this operator 
+
+ let c22 = 10; // This is the syntax of using Logical AND assignment operator
+ c22  ||= 20;
+ console.log(c22, ": is output of using Logical OR assignment operator")
+
+ // as output we will get a initial number 10  after using this operator because this  operator will change value if the initial value of x is  is falsy (e.g., null, undefined, false, 0, or an empty string).
+ // #########################################################################################
+
+ // #########################################################################################
+
+ // 3.  Nullish coalescing assignment operator (x ??= 5) - Here is the working example of this operator 
+
+ let c33 = 10; // This is the syntax of using Nullish coalescing assignment operator
+ c33  ??= 20;
+ console.log(c33, ": is output of using Nullish coalescing assignment operator")
+
+ // as output we will get a initial number 10  after using this operator because this  operator will change value if the initial value of x is  only null, undefined or emplty string 
+ // #########################################################################################
+
+ // Bitwise Assignment Operators - These are the special type of operators which compare two numbers (bit by bit) and convert them into a different number.
+
+ //There are 3 types of Bitwise Assignment Operators :
 
 
+ //#########################################################################################
+ // 1. Bitwise AND Assignment Operator(x &= 5) - Here is the working example of this operator 
+ let a11 = 10; // This is the syntax of using Bitwise AND assignment operator
+ a11  &= 20;
+ console.log(a11, ": is the output of using Bitwise AND Assignment Operator");
+
+ // as output we will get a new number 4(binary version - 0100 ) after using this operator
+
+ // This is how Bitwise AND Assignment Operator works 
+
+ // This is how values are compared by using (& operator means “if 1 == 1 = 1 are same its true otherwise either 1 == 0 = 1  or 0 == 1 = 1 is false” and in programing 1 represents  true and 0 represents false)
+
+ //   0110 (Binary Version of 6)
+ //   0101 (Binary Version of 5)
+ //   & ---- (This where 5 and 6 are compared bit by bit and their comparison and we have got new number 4 as result)
+ //   0100 ((Binary Version of 4))
+
+ // #########################################################################################
+
+
+ // #########################################################################################
+ // 2. Bitwise OR Assignment Operator(x |= 5)  - Here is the working example of this operator 
+ let a22 = 10; // This is the syntax of using Bitwise OR assignment operator
+ a22  |= 20;
+ console.log(a22, ": is the output of using Bitwise OR Assignment Operator");
+
+ // as output we will get a new number 7(binary version - 0111 ) after using this operator
+
+ // This is how Bitwise OR Assignment Operator works 
+
+ // This is how values are compared by using (| operator means “if 1 == 1 = 1 are same its true, either 1 == 0 = 1 or 0 == 1 = 1 is also true” only 0 == 0 = 0 is false and in programing 1 represents  true and 0 represents false)
+
+ //   0110 (Binary Version of 6)
+ //   0101 (Binary Version of 5)
+ //   | ---- (This where 5 and 6 are compared bit by bit and their comparison and we have got new number 7 as result)
+ //   0111 ((Binary Version of 7))
+
+ // #########################################################################################
+
+
+ // #########################################################################################
+ // 3. Bitwise XOR Assignment Operator (x ^= 5) -   Here is the working example of this operator 
+ let a33 = 10; // This is the syntax of using Bitwise XOR Assignment Operator
+ a33  ^= 20;
+ console.log(a33, ": is the output of using Bitwise XOR Assignment Operator");
+
+ // as output we will get a new number 3(binary version - 0011 ) after using this operator
+
+ // This is how Bitwise OR Assignment Operator works 
+
+ // This is how values are compared by using (^ operator means “if  1 == 0 = 1 or 0 == 1 = 1 is  true” and all other casses either 1 == 1 = 1 will be false and in programing 1 represents  true and 0 represents false)
+
+ //   0110 (Binary Version of 6)
+ //   0101 (Binary Version of 5)
+ //   | ---- (This where 5 and 6 are compared bit by bit and their comparison and we have got new number 3 as result)
+ //   0011 ((Binary Version of 3))
+
+ // This is avery special operator as it is used for data-encryption purposes 
+
+ // #########################################################################################
+
+
+ // #########################################################################################
+ // Shift Assignment Operators imoortant information
+
+ // Right/left shift operator in javasript - It is special type of operator in javascript which allows the user to work with numbers on binary level and changes the number by shifting their binary position according to dirction provided either left or right 
+
+ // There we have a detailed example which demostrated the working of this operator: 
+
+ // 0000000000000001 = 1 // These are the numbers binary version of the number 1 and 2
+ // 0000000000000010 = 2 
+
+ // after using (x = 1 << 2) left shift operator
+ // 0000000000000100 = 4 // the number is converted to 4 because we have used left shift operator which means the 
+ // binary expression 1 got shifted left by 2 digits and when its converted to decimal after using shift operator its 4 
+
+ // after using (x = 1 >> 2) right shift operator
+ // 0000000000000000 = 0 // / the number is converted to 0 because we have used right shift operator which means 
+ // the binary expression 1 got shifted right by 2 digits and when its converted to decimal after using shift operator its 0 
+
+ // Difference between right shift (x = 1 >> 2) and unsigned right shift operator (x = 1 >>> 2):
+
+ // Both right shift (x = 1 >> 2) and unsigned right shift operator (x = 1 >>> 2) are very similar about what they do but they only get different when they have to deal with negative numbers for example
+
+ // Case 1: Using right shift (x = 1 >> 2)
+ // 1. The binary representation of 1 is 0001.
+ // 2. When you perform a signed right shift by 2 positions, the sign bit (the leftmost bit) is preserved, and the rightmost positions are filled with zeros.
+
+ let b11 = 1; // This is the syntax of using Bitwise signed Right shift operator
+ b11 >>= 2;
+ console.log(b11, ": is output of using Bitwise signed right shift Operator");
+
+ //#########################################################################################
+
+ //#########################################################################################
+ // Case 2: Using unsigned right shift (x = 1 >>> 2) 
+ // x = 1 >>> 2 (Unsigned Right Shift):
+ // 1. As before, the binary representation of 1 is 0001.
+ // 2. When you perform an unsigned right shift by 2 positions, it fills the leftmost positions with zeros without preserving the sign bit.
+
+ let b22 = 1; // This is the syntax of using Bitwise unsigned Right shift operator
+ b22 >>>= 2;
+ console.log(b22, ": is output of using Bitwise unsigned right shift Operator");
+
+ // In both cases the x will be zero but the only difference is how they deal with bits whens used 
+
+ //#########################################################################################
+
+ // 4. JavaScript Assignment Operators - these are sme which can bes used in javascsript to perform some basic calculations
 
 
 
