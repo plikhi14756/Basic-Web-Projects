@@ -66,7 +66,7 @@ figure {
 body{
   font-family: monospace;
   font-size: xx-large;
-  background-image: url("/Users/pranavlikhi/Desktop/Web development folder/Media/Images/Background-images-for-webpages/For-Projects/Project-1-My-Favourite-Stories-Background-image.jpeg");
+  background-image: url("/Media/Images/Background-images-for-webpages/For-Projects/Project-1-My-Favourite-Stories-Background-image.jpeg");
 
   min-height: 500px;
   /* This piece of code down below gives our html webpage the power of parallax(Special scrolling effect which is commonly used by modern websites) */
