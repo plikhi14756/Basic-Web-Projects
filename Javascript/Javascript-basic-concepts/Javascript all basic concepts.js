@@ -779,22 +779,102 @@ function JavascriptMath() {
 
 }
 
+
+function javaStrings() {
+
+
+  console.log("\n ************************************* Introduction to concept of javascript Strings *************************************   \n");
+
+ // Stings - In javascript strings are used to manipulate charactors and anything which is inside double quotes or single quotes is called Strings 
+
+ // This is the example of a simple string 
+
+  console.log("This is the simple string \n");
+
+ // The javascript has 6 special escape methods which not used with HTML or any other way  because they were traditionaly used for controlling type writters or teletypers
+ 
+ // In Javascript we have 9 Escape chareactors and they allow us to add special fetures or charactors to our string without causing any problems with the strings
+
+  //  Code	                              Result
+  // \b	                                  Backspace
+  // \f	                                  Form Feed
+  // \n	                                  New Line
+  // \r	                                  Carriage Return
+  // \t	                                  Horizontal Tabulator
+  // \v	                                  Vertical Tabulator
+  // \'                                    '	'(Single quote)
+  // \"	                                   " (Double quote)
+  // \\	                                   \ (Backslash)
+
+  // * THIS PROPERTY (\) ALSO ALLOWS A SINGLE LINE OF STRING TO BREAKE INTO NO OF LINES USER WANTS TO INREASE READABILITY OF CODE AND MAKE IT EASIER TO UNDERSTAND
+
+  // Now we will see the example of each string escape method
+
+  // This is the example of using (\b) backspace 
+
+  console.log("This is \b \b called backspace string.");
+
+  // This is the example of using (\f) formfeed 
+
+  console.log("This is \f \f called formfeed string.");
+
+  // This is the example of using (\n) Newline 
+
+  console.log("This is \n called NewLine string.");  
+
+  // This is the example of using (\r) Carriage Return 
+
+  console.log("This is \r \r called Carriage Return string.");  
+
+  // This is the example of using (\t) Horizontal Tabulartor  
+
+  console.log("This is \t \t called Horizontal Tabulartor string.");  
+  
+  // This is the example of using (\v) Vertical Tabulartor  
+
+  console.log("This is \v \v called Vertical Tabulartor string.");    
+
+  // This is the example of using (\) String Line Break Property  
+
+  console.log("This is \
+  called String Line Break Property string.");   
+  
+  // This is the example of using (\') Single quote property  
+
+  console.log("This is called \'Single quote property\'  String.");   
+  
+  // This is the example of using (\) Backslash property  
+
+  console.log("This is called \"Double Quotes property\" String.");  
+
+  // This is the example of using (\\) Backslash property  
+
+  console.log("This is called \\BackSlash property String.");  
+  
+
+  console.log("\n ************************************* The End *************************************   \n");
+
+
+}
+
 // This section has functions executed using javascript and we can select which function/concept we want run/use at time instead of running all concepts at once 
 
-helloWorld(); // This function has information about the first hello-world program created by using javascript
+// helloWorld(); // This function has information about the first hello-world program created by using javascript
 
 
-Variables(); // This function has information about the concept of variables and types used in javascript
+// Variables(); // This function has information about the concept of variables and types used in javascript
 
 
-dataTypes(); // This function has information about the concept of data-types used in javascript
+// dataTypes(); // This function has information about the concept of data-types used in javascript
 
 
 // htmlDOM(); // This function has information about the concept of HTML DOM which allows us to manipulate HTML and CSS elements by using javascript
 
 
-Numbers(); // This function has information about the concept of Numbers and conversion methods which can be used in javascript
+// Numbers(); // This function has information about the concept of Numbers and conversion methods which can be used in javascript
 
-operator(); // This function has information about the concept of operators which are commonly used in making javascript programs 
+// operator(); // This function has information about the concept of operators which are commonly used in making javascript programs 
 
-JavascriptMath(); // This function has information about the concept of Math Object which is commonly used in performing complex Mathematic Calculations javascript programs 
+// JavascriptMath(); // This function has information about the concept of Math Object which is commonly used in performing complex Mathematic Calculations javascript programs 
+
+javaStrings(); // This function is has information about the concept of strings and its special methods which are the crutial part of the javascript language 
