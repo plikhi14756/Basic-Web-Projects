@@ -850,6 +850,212 @@ function javaStrings() {
   // This is the example of using (\\) Backslash property  
 
   console.log("This is called \\BackSlash property String.");  
+
+  // ######################################### Introduction to string methods ###############################################
+
+   // In javascriptc we have total of 17 string methods which can be used for the variety of purposes 
+
+
+
+   // These methods are categorised into different purposes which makes it easier for the users to understand or use them
+
+
+
+   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+     // Category 0 - Calculating string length
+
+     // length - this methods gives the length of string as a result and its syntax is  string.length() where string is any user defined variable 
+
+     // This is the example of using string length
+     let text0 ="Pranav Likhi";
+     console.log(text0.length ,": This is the example of using String length method"); 
+
+
+    // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+     // Category 1 - Extracting string parts
+
+     // For extracting string parts javascript has 3 different methods and all of them are very similar but have some minor differences 
+    
+     // 1. slice() - This methods gives the new extracted string as a result. the syntax of using this method is string.slice(0, 2) where string is any user defined variable and 0 is the starting position and 2 is the end position 
+    
+     // ** In this method the first position is included but the last position is not included and the position in javascipt starts from 0 
+    
+     // ** if only one perimeter is given then all the strings get extracted after the position provided
+    
+     // ** if negative paremeters are given then it will start extracting from the last
+
+     // This the example of using slice methos with strings with javascript
+
+     let text1 = "This is a sample string.";
+
+     console.log( text1.slice(10,16) ,": This is the example of using slice() Method ");
+
+     // 2. substring() - This methods gives the new extracted string as a result. the syntax of using this method is string.substring(0, 2) where string is any user defined variable and 0 is the starting position and 2 is the end position 
+    
+     // ** In this method the first position and the last position are included and the position in javascipt starts from 0 
+    
+     // ** if only one perimeter is given then all the strings get extracted after the position provided
+    
+     // ** this method work only with positive numbers
+
+     // This the example of using substring() method with strings with javascript
+
+     let text2 = "This is a sample string.";
+
+     console.log( text2.substring(0,4) ,": This is the example of using substring() Method ");
+
+
+     // 3. substr() - This methods gives the new extracted string as a result. the syntax of using this method is string.substring(0, 2) where string is any user defined variable and 0 is the starting position and 2 is the length of the string and it caNNOT BE NEGATIVE 
+    
+     // ** In this method the first position and the last position are included and the position in javascipt starts from 0 
+    
+     // ** if only one perimeter is given then all the strings get extracted after the position provided
+    
+     // ** this method works with both negative and positive numbers but only first paremether can be negative 
+
+     // This the example of using substr() method with strings with javascript
+
+     // ** if negative paremeter is given then it will start extracting from the last     
+
+     let text3 = "This is a sample string.";
+
+     console.log( text3.substr(5,2) ,": This is the example of using substring() Method ");
+     
+   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+
+
+
+   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    // Category 2 - Replacing string content
+
+    // To replace content of a string javascript has a special method known as "Replace() and RepalceAll()"
+
+    // Both replace or Repalce all both are very similar 
+
+    // 1. Replace() - The syntax of using this method is text.Replace("cats" , "Dogs") (Where "text" is any user defined variable and "cats" is the part of original string content and "Dogs is the part which will be changed by using this method")
+
+    // This Method has 3 variatins which make this method more powerful and effective
+
+    // 1. This is the example of using using original method only - when we use the method only then it will replace content with first match which means when it will encounter multiple charactors then it will replace first charactor only
+
+    // * str - it stands for the variable which will contain string content
+    
+    let str1 = "I love c programing and all applications made by using c language";
+    let str2 = str1.replace("c" , "Python");
+    console.log(str2 ,": This is the the example of using replace method(Without adding any variations)");
+
+
+
+    // 2. This is the example of using original method by using /g(global search) - when we use method with this variation the even if the string has multiple similar charactors all will changed at once
+
+    // * str - it stands for the variable which will contain string content
+    
+    let str3 = ("I love c programing and all softwares made by using c language")
+    let str4 = str3.replace(/c/g , "Python") // this is the syntax of using replace method with (/g Variation)
+    console.log(str4, ": This is the example of using replace method (With /g variation)")
+
+
+
+    // 3. This is the example of using original method by using /i(insensitive search) - when we use method with this variation and if the string has multiple similar charactors all will replace then it will replace first charactor only but it helps in eliminating javascript case-sensitivity nature problem
+
+    // * str - it stands for the variable which will contain string content
+    
+    let str5 = ("I love C programing and all softwares made by using C language")
+    let str6 = str5.replace(/c/i , "Python") // this is the syntax of using replace method with (/i Variation)
+    console.log(str6, ": This is the example of using replace method (With /i variation)")   
+    
+    
+
+    // * Special case - We can the the method by combining all varitions together and doing this will make this method more powerful and efffective
+    
+
+    // * str - it stands for the variable which will contain string content
+    
+    let str7 = ("I love Dogs and dogs are the best creation of nature")
+    let str8 = str7.replace(/DOGS/ig , "Cats") // this is the syntax of using replace method with (/g /i Variation together)
+    console.log(str8, ": This is the example of using replace method (With /i and /g variation together)")   
+
+
+   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
+
+
+
+
+   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+    // Category 3 - Converting string from upper-case to lower-case or vice versa
+    
+    
+    // In javascript For converting strings from upper-case to lower-case or vice versa we have 2 different methods 
+
+
+    // 1. For converting to lower-case(All Small Charactors) - To perform this operation we use (string.toLowerCase()) where string is any use-defined string which contains the string which needs to converted
+
+
+    // This the example of using toLowerCase() method
+
+    // * ch is variable used for storing string comntents 
+
+    let ch1 = "HI EVERYONE i want to spend my whole life in meeting new people and exploring different parts of thew World";
+    let ch2 = ch1.toLowerCase(); // This the syntax of using toLowerCase() in javascript
+    console.log(ch2 ,": This is the example of using toLowerCase() Method");
+  
+
+
+    // 2. For converting to upper-case(All capital/big Charactors) - To perform this operation we use (string.toUpperCase()) where string is any use-defined string which contains the string which needs to converted
+
+
+    // This the example of using toUpperCase() method
+
+    // * ch is variable used for storing string comntents 
+
+    let ch3 = "HI EVERYONE i want to spend my whole life in meeting new people and exploring different parts of thew World";
+    let ch4 = ch3.toUpperCase(); // This the syntax of using toUpperCase() in javascript
+    console.log(ch4 ,": This is the example of using toUpperCase() Method");
+
+   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     // Category 4 - Joining Two/multiple strings together
+     
+     // For this operation we can use conCat() methods which allows to join two different strings together
+
+     // This the example of using Concat() method
+
+    // * join is variable used for storing string comntents 
+
+    let join1 = "HI everyone i want to spend my whole life in meeting new people"; // these are two diiferent strings
+    let join2 = "and exploring different parts of thew World";
+    let join3 = join1.concat( " ", join2) // This the syntax of using concat() method in javascript
+    console.log(join3 ,":This is the example of using concat() Method");
+
+   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   // ########################################### The End ##############################################
   
 
   console.log("\n ************************************* The End *************************************   \n");
