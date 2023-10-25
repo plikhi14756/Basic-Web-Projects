@@ -1124,12 +1124,6 @@ function javaStrings() {
       let pd4 = pd3.padEnd(10 , ":)"); // This is the syntax of using padEnd method (Where 10 is the length of the string and ':)' is charactor used to reach the specified length)
 
       console.log(pd4, "(String after using padEnd() method)", " : " ,pd3, "(String without padEnd() method)")
-
-
-
-
-
-
    // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
 
 
