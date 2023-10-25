@@ -1044,14 +1044,93 @@ function javaStrings() {
 
 
 
+   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     // Category 5 - Eliminating Whitespaces in string
+     
+     // To eleminate extra white spaces javascript has 3 methods 
+     
+     // 1. trim() - This method allows the user to eleminate the extra white spaces from before and after the string content
+
+     // This is the example of using trim() method
+
+     // * wt is the user-defined variable used to store string content 
+
+     let wt1 = "      Name - Pranav Likhi      ";
+
+     let wt2 = wt1.trim(); // This is the syntax of using trim() method
+
+     console.log(wt2, "(String after using trim() method)", "\n" ,wt1, "(String without trim() method)")
+
+
+
+     // 2. trimStart() - This method allows the user to eleminate the extra white spaces from before(at the start) the string content
+
+     // This is the example of using trimStart() method
+
+     // * wt is the user-defined variable used to store string content 
+
+     let wt3 = "      Name - Pranav Likhi      ";
+
+     let wt4 = wt3.trimStart(); // This is the syntax of using trimStart() method
+
+     console.log(wt4, "(String after using trimStart() method)", "\n" ,wt3, "(String without trimStart() method)")     
+
+
+     // 3. trimEnd() - This method allows the user to eleminate the extra white spaces from after(at the end) the string content
+
+     // This is the example of using trimEnd() method
+
+     // * wt is the user-defined variable used to store string content 
+
+     let wt6 = "      Name - Pranav Likhi      ";
+
+     let wt7 = wt6.trimEnd(); // This is the syntax of using trimEnd() method
+
+     console.log(wt7, "(String after using trimEnd() method)", "\n" ,wt6, "(String without trimEnd() method)")          
+
+   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      // Category 6 - Controlling String length
+
+      // Javascript allows the user to adjust or control string length using by 3 different methods
+
+      // 1. padStart() - This method allows the user to adjust the length by adding any desired charactor or converted number at the font of the original content of the string and the specified charactor will keeop on adding multiple until the string will reach the specified length.
+      
+      // This is the example of using string padStart() Method
+      
+      // *  pd is the user-defined variable used to store string content 
+
+
+      let pd1 = "Hi";
+
+      let pd2 = pd1.padStart(10 , ":("); // This is the syntax of using padStart method (Where 10 is the length of the string and ':(' is charactor used to reach the specified length)
+
+      console.log(pd2, "(String after using padStart() method)", " : " ,pd1, "(String without padStart() method)")
+
+
+      // 2. padEnd() - This method allows the user to adjust the length by adding any desired charactor or converted number at the end of the original content of the string and the specified charactor will keeop on adding multiple until the string will reach the specified length.
+      
+      // This is the example of using string padEnd() Method
+      
+      // *  pd is the user-defined variable used to store string content 
+
+
+      let pd3 = "Hi";
+
+      let pd4 = pd3.padEnd(10 , ":)"); // This is the syntax of using padEnd method (Where 10 is the length of the string and ':)' is charactor used to reach the specified length)
+
+      console.log(pd4, "(String after using padEnd() method)", " : " ,pd3, "(String without padEnd() method)")
 
 
 
 
 
 
-
-
+   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   
 
 
 
